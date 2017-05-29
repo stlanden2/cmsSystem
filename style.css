@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+/* line 5, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif; }
+
+/* line 21, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+* {
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+/* line 27, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+html, body {
+  height: 100%; }
+
+/* line 31, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #333333; }
+
+/* line 37, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+  border-bottom: 2px solid black;
+  margin-bottom: 1em; }
+
+/* line 50, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+.wrapper {
+  position: relative;
+  box-shadow: 0 0 1em #333333; }
+  /* line 53, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+  .wrapper section {
+    position: relative;
+    background: #eeeeee; }
+    /* line 57, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section #Profil .user-row {
+      margin-bottom: 14px; }
+    /* line 60, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section #Profil .user-row:last-child {
+      margin-bottom: 0; }
+    /* line 63, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section #Profil .dropdown-user {
+      margin: 13px 0;
+      padding: 5px;
+      height: 100%; }
+    /* line 68, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section #Profil .dropdown-user:hover {
+      cursor: pointer; }
+    /* line 71, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section #Profil .toppad {
+      padding: 200px; }
+    /* line 75, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section article {
+      width: 50%;
+      margin: 0 auto;
+      padding: 8em 0; }
+      /* line 80, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+      .wrapper section article p {
+        margin-bottom: 1em; }
+        /* line 82, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+        .wrapper section article p:last-of-type {
+          margin-bottom: 0; }
+    /* line 87, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section:after {
+      content: "";
+      display: block;
+      position: relative;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 30em;
+      width: 100%; }
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section:nth-child(1):after {
+      background-image: url("img/baggrundsbilled1920x1080.jpg"); }
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section:nth-child(2):after {
+      background-image: url("img/anime_bleach_ichego_posture_wind_background_28439_1920x1080.jpg"); }
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section:nth-child(3):after {
+      background-image: url("img/tokyo_ghoul_kaneki_ken_man_mask_red_eyes_white_hair_100605_2560x1440.jpg"); }
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section:nth-child(4):after {
+      background-image: url("img/NKFAxd.jpg"); }
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section:nth-child(5):after {
+      background-image: url("img/Ghouling-2016-4K-Anime-Wallpaper-2560x1440.jpg"); }
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    .wrapper section:nth-child(6):after {
+      background-image: url("img/anime-girl-2560x1440-bench-alone-blue-sky-4k-1515.jpg"); }
+
+@media only screen and (max-width: 600px) {
+  /* line 111, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+  .wrapper section article {
+    width: 80%; }
+  /* line 114, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+  .wrapper section:after {
+    height: 15em; } }
+
+/*# sourceMappingURL=style.css.map */

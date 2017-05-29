@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+$color-alpha: #eeeeee;
+$color-beta: black;
+$color-gamma: #333333;
+
+@mixin cover($i, $url) {
+  &:nth-child(#{$i}) {
+    &:after {
+      background-image: url($url);
+    }
+  }
+}
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: $color-gamma;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+  border-bottom: 2px solid $color-beta;
+  margin-bottom: 1em;
+}
+.thumb-contenido{
+    
+    margin-bottom:1%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+hr{
+	text-align: center;
+	margin: 7em 0 11em 0;
+	color:#bbb;
+	border:0;
+}
+hr::after{
+	content: "··•··";
+	letter-spacing: 2em;
+    color: black;
+}
+
+.wrapper {
+  position: relative;
+  box-shadow: 0 0 1em $color-gamma;
+  section {
+    position: relative;
+    background: $color-alpha;
+    article {
+        width: 50%;
+        margin: 0 auto;
+        padding: 8em 0;
+        
+      p {
+        margin-bottom: 1em;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &:after {
+      content: "";
+      display: block;
+      position: relative;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 30em;
+      width: 100%;
+    }
+    @include cover(1, "img/baggrundsbilled1920x1080.jpg");
+    @include cover(2, "img/anime_bleach_ichego_posture_wind_background_28439_1920x1080.jpg");
+    @include cover(3, "img/tokyo_ghoul_kaneki_ken_man_mask_red_eyes_white_hair_100605_2560x1440.jpg");
+    @include cover(4, "img/NKFAxd.jpg");
+    @include cover(5, "img/Ghouling-2016-4K-Anime-Wallpaper-2560x1440.jpg");
+    @include cover(6, "img/anime-girl-2560x1440-bench-alone-blue-sky-4k-1515.jpg");
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    section {
+      article {
+        width: 80%;
+      }
+      &:after {
+        height: 15em;
+      }
+    }
+  }
+}
