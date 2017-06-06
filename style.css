@@ -1,27 +1,46 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 /* entypo */
-/* line 5, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+/* line 5, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif; }
 
-/* line 21, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+/* line 21, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
 * {
   border: 0;
   padding: 0;
   margin: 0; }
 
-/* line 27, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+/* line 28, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
 html, body {
   height: 100%; }
 
-/* line 31, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+/* line 32, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   color: #333333; }
 
-/* line 37, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+/* line 38, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+a {
+  color: black;
+  float: left; }
+
+/* line 43, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  margin: 0 30px 0 0; }
+
+/* line 52, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+a:hover {
+  color: red; }
+
+/* line 56, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
 h1 {
   text-align: center;
   font-weight: 300;
@@ -29,43 +48,179 @@ h1 {
   border-bottom: 2px solid black;
   margin-bottom: 1em; }
 
-/* line 50, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+/* line 63, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+.thumb-contenido {
+  margin-bottom: 1%;
+  margin-left: 0px;
+  padding-left: 0px; }
+
+/* line 72, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg body {
+  background: #fafafa; }
+
+/* line 73, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .widget-area.blank {
+  background: none repeat scroll 0 0 transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none; }
+
+/* line 81, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg body .no-padding {
+  padding: 0; }
+
+/* line 84, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .widget-area {
+  background-color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+  float: left;
+  margin-top: 30px;
+  padding: 25px 30px;
+  position: relative;
+  width: 100%; }
+
+/* line 102, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload {
+  background: none repeat scroll 0 0 #f5f5f5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  float: left;
+  width: 100%; }
+
+/* line 112, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload form {
+  float: left;
+  width: 100%; }
+
+/* line 116, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload form textarea {
+  background: none repeat scroll 0 0 #fff;
+  border: medium none;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -ms-border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  color: #777777;
+  float: left;
+  font-family: Lato;
+  font-size: 14px;
+  height: 142px;
+  letter-spacing: 0.3px;
+  padding: 20px;
+  width: 100%;
+  resize: vertical;
+  outline: none;
+  border: 1px solid #F2F2F2; }
+
+/* line 137, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload ul {
+  float: left;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0 0 0 15px;
+  width: auto; }
+
+/* line 144, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload ul > li {
+  float: left; }
+
+/* line 147, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload ul > li > a {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: #777777;
+  float: left;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px 0 10px 10px;
+  text-align: center;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  width: 30px;
+  cursor: pointer; }
+
+/* line 168, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload ul > li > a:hover {
+  background: none repeat scroll 0 0 #606060;
+  color: #fff; }
+
+/* line 172, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload form button {
+  border: medium none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff;
+  float: right;
+  font-family: Lato;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  margin-right: 9px;
+  margin-top: 9px;
+  padding: 6px 15px;
+  padding: 6px 15px; }
+
+/* line 189, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .dropdown > a > span.green:before {
+  border-left-color: #2dcb73; }
+
+/* line 192, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+#BlogIndleg .status-upload form button > i {
+  margin-right: 7px; }
+
+/* line 197, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
 .wrapper {
   position: relative;
   box-shadow: 0 0 1em #333333; }
-  /* line 53, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+  /* line 200, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
   .wrapper section {
     position: relative;
     background: #eeeeee; }
-    /* line 57, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
-    .wrapper section #Profil .user-row {
-      margin-bottom: 14px; }
-    /* line 60, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
-    .wrapper section #Profil .user-row:last-child {
-      margin-bottom: 0; }
-    /* line 63, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
-    .wrapper section #Profil .dropdown-user {
-      margin: 13px 0;
-      padding: 5px;
-      height: 100%; }
-    /* line 68, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
-    .wrapper section #Profil .dropdown-user:hover {
-      cursor: pointer; }
-    /* line 71, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
-    .wrapper section #Profil .toppad {
-      padding: 200px; }
-    /* line 75, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    /* line 203, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
     .wrapper section article {
       width: 50%;
       margin: 0 auto;
       padding: 8em 0; }
-      /* line 80, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+      /* line 207, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+      .wrapper section article hr {
+        text-align: center;
+        margin: 3em 0 1em 0;
+        color: black; }
+      /* line 212, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
+      .wrapper section article hr:after {
+        content: "··•··";
+        letter-spacing: 2em; }
+      /* line 217, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
       .wrapper section article p {
         margin-bottom: 1em; }
-        /* line 82, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+        /* line 219, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
         .wrapper section article p:last-of-type {
           margin-bottom: 0; }
-    /* line 87, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    /* line 224, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
     .wrapper section:after {
       content: "";
       display: block;
@@ -76,30 +231,30 @@ h1 {
       background-repeat: no-repeat;
       height: 30em;
       width: 100%; }
-    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
     .wrapper section:nth-child(1):after {
       background-image: url("img/baggrundsbilled1920x1080.jpg"); }
-    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
     .wrapper section:nth-child(2):after {
       background-image: url("img/anime_bleach_ichego_posture_wind_background_28439_1920x1080.jpg"); }
-    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
     .wrapper section:nth-child(3):after {
       background-image: url("img/tokyo_ghoul_kaneki_ken_man_mask_red_eyes_white_hair_100605_2560x1440.jpg"); }
-    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
     .wrapper section:nth-child(4):after {
       background-image: url("img/NKFAxd.jpg"); }
-    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
     .wrapper section:nth-child(5):after {
       background-image: url("img/Ghouling-2016-4K-Anime-Wallpaper-2560x1440.jpg"); }
-    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+    /* line 15, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
     .wrapper section:nth-child(6):after {
       background-image: url("img/anime-girl-2560x1440-bench-alone-blue-sky-4k-1515.jpg"); }
 
 @media only screen and (max-width: 600px) {
-  /* line 111, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+  /* line 248, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
   .wrapper section article {
     width: 80%; }
-  /* line 114, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cms system/style.scss */
+  /* line 251, //cv.local/dfs/Students/sabr1599/Desktop/v.3.1/cmsSystem/cmsSystem/style.scss */
   .wrapper section:after {
     height: 15em; } }
 
