@@ -165,7 +165,8 @@
                         <div class="widget-area no-padding blank">
                             <div class="status-upload">
                                 <form>
-                                    <textarea placeholder="Skrev blog indlag her?" ></textarea>
+                                    <textarea type="texst" placeholder="Skrev din overskreft her?" ></textarea>
+                                    <textarea type="texst" placeholder="Skrev blog indlag her?" ></textarea>
                                     <ul>
                                         <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Audio"><i class="fa fa-music"></i></a></li>
                                         <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Video"><i class="fa fa-video-camera"></i></a></li>
@@ -182,7 +183,7 @@
 
         </article>
         <article>
-            <?php include "fetchDb"; ?>
+            <?php include "getArticle.php"; ?>
 
                             
                             
